@@ -11,9 +11,11 @@
                 <p>In Your Gedget</p>
               </h2>
               <p>Ayo Segera Pilih dan pesan makanan favorit anda</p>
-              <button to="/Pesan" class="btn btn-lg btn-success">
-                <b-icon-arrow-right></b-icon-arrow-right> Pesan
-              </button>
+              <router-link to="/Foods">
+                <button to="/Pesan" class="btn btn-lg btn-success">
+                  <b-icon-arrow-right></b-icon-arrow-right> Pesan
+                </button>
+              </router-link>
             </div>
           </div>
         </div>
