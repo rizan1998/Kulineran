@@ -1,0 +1,190 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-1",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-2",
+      "nama": "Nasi Goreng Telor",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-3",
+      "nama": "Nasi Rames",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-1",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-2",
+      "nama": "Nasi Goreng Telor",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-3",
+      "nama": "Nasi Rames",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-4",
+      "nama": "Mie Ayam Bakso",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-5",
+      "nama": "Mie Goreng",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-6",
+      "nama": "Bakso",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-7",
+      "nama": "Pangsi 6 pcs",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "pangsit.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-8",
+      "nama": "Lontong Opor ayam",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "lontong-opor-ayam.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-9",
+      "nama": "Kentang Goreng",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg"
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah_pemesanan": "3",
+      "keterangan": "pedes semua",
+      "products": {
+        "id": 2,
+        "kode": "K-2",
+        "nama": "Nasi Goreng Telor",
+        "harga": 16000,
+        "is_ready": true,
+        "gambar": "nasi-goreng-telor.jpg"
+      },
+      "id": 4
+    },
+    {
+      "jumlah_pemesanan": "43",
+      "products": {
+        "id": 2,
+        "kode": "K-2",
+        "nama": "Nasi Goreng Telor",
+        "harga": 16000,
+        "is_ready": true,
+        "gambar": "nasi-goreng-telor.jpg"
+      },
+      "id": 5
+    }
+  ],
+  "pesanans": [
+    {
+      "nama": "rizan",
+      "noMeja": "34",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "fda",
+          "products": {
+            "id": 2,
+            "kode": "K-2",
+            "nama": "Nasi Goreng Telor",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "asdff",
+          "products": {
+            "id": 5,
+            "kode": "K-5",
+            "nama": "Mie Goreng",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "1. ga pake mie ga pede, 2. pedes campur, 3. sedang gapake bawang",
+          "products": {
+            "id": 6,
+            "kode": "K-6",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg"
+          },
+          "id": 3
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "pedes semua",
+          "products": {
+            "id": 2,
+            "kode": "K-2",
+            "nama": "Nasi Goreng Telor",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 4
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
