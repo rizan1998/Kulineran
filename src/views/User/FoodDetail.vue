@@ -94,7 +94,7 @@ export default {
             this.$router.push({ path: "/keranjang" });
             this.$toast.success("Sukses Masuk Keranjang", {
               type: "success",
-              position: "top-right",
+              position: "top-center",
               duration: 3000,
               dismissible: true,
             });
