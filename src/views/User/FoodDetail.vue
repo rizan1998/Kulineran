@@ -1,48 +1,22 @@
 <template>
-  <div>
+  <div class="FoodDetail">
     <NavbarComponent />
     <div class="container">
-      <div class="row mt-4">
+      <div class="row">
         <div class="col">
-          <h3>Daftar Makanan</h3>
-        </div>
-      </div>
-
-      <div class="row mt-3">
-        <div class="col-md-6 offset-md-6">
-          <div class="input-group mb-3">
-            <input
-              v-model="search"
-              type="text"
-              class="form-control"
-              placeholder="Cari Menu Makanan"
-              aria-label="Cari Menu Makanan"
-              aria-describedby="basic-addon2"
-              @keyup="searchFoods"
-            />
-            <div class="input-group-append" @click="searchFoods">
-              <span class="input-group-text" id="basic-addon2">
-                <b-icon-search></b-icon-search>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div v-if="products">
-        <div class="row mb-3">
-          <div
-            class="col-md-4 mt-4"
-            v-for="product of products"
-            :key="product.id"
-          >
-            <CardProduct :product="product" />
-          </div>
-        </div>
-      </div>
-      <div v-else class="row mb-3">
-        <div class="col-md-10 offset-md-1 pt-5 mt-5 mb-5 pb-5 text-center">
-          <h3>Maaf Makanan Tidak Ditemukan :))</h3>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <router-link to="/">Home</router-link>
+              </li>
+              <li class="breadcrumb-item">
+                <router-link to="/Foods">Foods</router-link>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Food Order
+              </li>
+            </ol>
+          </nav>
         </div>
       </div>
     </div>
@@ -53,15 +27,13 @@
 <script>
 import NavbarComponent from "../../components/UserComponent/Navbar";
 import FooterComponent from "../../components/UserComponent/Footer";
-import CardProduct from "../../components/UserComponent/CardProduct";
 import axios from "axios";
-
 export default {
   components: {
     NavbarComponent,
     FooterComponent,
-    CardProduct,
   },
+  props: ["id"],
   data() {
     return {
       products: [],
